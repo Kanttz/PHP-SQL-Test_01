@@ -27,7 +27,7 @@
         เลือกรูป : <input type="file" name="stuImage" id="" accept=".png, .jpg, .jpeg, .ARW"> <br><br>
         <hr>
         <input type="submit" value="บันทึก" onclick="return checkform(this.form);">
-        <input type="button" value="ยกเลิก" onclick="window.location.href='cancel.html'">
+        <input type="button" value="ยกเลิก" onclick="window.location.href='./student_showall.php'">
     </form>
 
 </body>

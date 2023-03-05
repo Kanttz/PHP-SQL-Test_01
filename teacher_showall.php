@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="./css/STA.css">
+        <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
 </head>
 
 <body>
@@ -48,10 +49,6 @@
                         echo "<td>" . $teaName . "</td>";
                         echo "<td>" . $major . "</td>";
                         echo "&nbsp;&nbsp;&nbsp;";
-                        // echo "<a href=\"./teacher_update.php?teaId=" . $teaId . "&teaName=" . $teaName . "&major=" . $major . "\">แก้ไข</a>";
-                        // echo "&nbsp;&nbsp;&nbsp;";
-                        // echo "<a href=\"./teacher_delete_result.php?teaId=" . $teaId . "\">ลบ</a>";
-                        // ทำให้สามบรรทัดข้างบนอยู่ตรงกลางของหน้าจอ
                         echo "<td align=\"center\">";
                         echo "<a href=\"./teacher_update.php?teaId=" . $teaId . "&teaName=" . $teaName . "&major=" . $major . "\">แก้ไข</a>";
                         echo "&nbsp;&nbsp;&nbsp;";

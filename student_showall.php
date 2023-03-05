@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="./css/STA.css">
+        <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
 </head>
 
 <body>
@@ -32,7 +33,7 @@
 
         if ($numRow > 0) {
                 echo "<table border=\"1\" width=\"800\">";
-                echo "<tr><td>รหัส</td><td>รูป</td><td>ชื่อ-สกุล</td><td>คำแนนรวม</td><td>GPA</td></tr>";
+                echo "<tr><td>รหัส</td><td>รูป</td><td>ชื่อ-สกุล</td><td>คะแนนรวม</td><td>GPA</td></tr>";
 
                 while ($dataRow = $result->fetch(PDO::FETCH_ASSOC)) {
                         extract($dataRow);

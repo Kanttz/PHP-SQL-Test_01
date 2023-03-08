@@ -33,7 +33,7 @@
         เลือกรูปภาพ : <input type="file" name="teaImg" id="" accept=".png, .jpg, .jpeg, .ARW">
         <hr>
         <input type="submit" value="บันทึก" onclick="return checkform(this.form);">
-        <input type="reset" value="ยกเลิก" onclick="return confirm('คุณต้องการยกเลิกหรือไม่ ?')" />
+        <input type="button" value="ยกเลิก" onclick="window.location.href='./teacher_showall.php'">
     </form>
 
 </body>

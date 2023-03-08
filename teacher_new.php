@@ -22,11 +22,11 @@
         รหัสอาจารย์ : <input type="text" name="teaId" id="" required> <br><br>
         ชื่อ-สกุลอาจารย์ : <input type="text" name="teaName" id=""> <br><br>
         สาขาวิชาอาจารย์ : <input type="text" name="major" id=""> <br><br>
-        เลือกรูปภาพ : <input type="file" name="teaImg" id="" accept=".png, .jpg, .jpeg, .ARW"> <br><br>
+        เลือกรูป : <input type="file" name="teaImg" id="" accept=".png, .jpg, .jpeg, .ARW"> <br><br>
         <hr>
         <input type="submit" value="บันทึก" onclick="return checkform(this.form);">
-        <input type="button" value="ยกเลิก" onclick="window.location.href='./teacher_showall.php'">  
-        
+        <input type="button" value="ยกเลิก" onclick="window.location.href='./teacher_showall.php'">
+
     </form>
 </body>
 
